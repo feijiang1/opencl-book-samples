@@ -1,0 +1,20 @@
+cc_defaults {
+    name: "opencl-programming-guide-examples-defaults",
+
+    vendor_available: true,
+
+    cppflags: [
+        "-Wno-error",
+    ],
+
+    include_dirs: [
+        "hardware/intel/external/opencl/compute-runtime/third_party/opencl_headers",
+        "hardware/intel/external/opencl/opencl-book-samples/khronos",
+    ],
+
+}
+
+
+subdirs = [
+    "src",
+]

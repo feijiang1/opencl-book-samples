@@ -1,0 +1,266 @@
+cc_binary {
+    name: "HelloWorld",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_2/HelloWorld/HelloWorld.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+
+cc_binary {
+    name: "OpenCLConvolutionChap3",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_3/OpenCLConvolution/Convolution.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+
+cc_binary {
+    name: "OpenCLInfo",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_3/OpenCLInfo/OpenCLInfo.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+
+cc_binary {
+    name: "HelloBinaryWorld",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_6/HelloBinaryWorld/HelloBinaryWorld.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+
+cc_binary {
+    name: "SimpleBufferSubBuffer",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_7/SimpleBufferSubBuffer/simple.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+
+cc_binary {
+    name: "histogram",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_14/histogram/histogram.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+/*
+cc_binary {
+    name: "ImageFilter2D",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_8/ImageFilter2D/ImageFilter2D.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+        "libfreeimage",
+    ],
+
+}
+
+
+// fatal error: 'GL/glew.h' file not found
+cc_binary {
+    name: "GLinterop",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_10/GLinterop/GLinterop.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+
+// fatal error: 'GL/glew.h' file not found
+cc_binary {
+    name: "sinewave",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_12/Sinewave/sinewave.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+// fatal error: 'GL/gl.h' file not found 
+cc_binary {
+    name: "vecadd",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_12/VectorAdd/vecadd.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+
+cc_binary {
+    name: "Dijkstra",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_16/Dijkstra/*.cpp",
+    ],
+
+    static_libs: [
+        "libboost_program_options",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+
+// fatal error: 'oclUtils.h' file not found 
+// fatal error: 'shrUtils.h' file not found 
+cc_binary {
+    name: "oclFlow",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_19/oclFlow/*.cpp",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
+*/
+
+cc_binary {
+    name: "spmv",
+
+    vendor_available: true,
+
+    defaults: [
+        "opencl-programming-guide-examples-defaults",
+    ],
+
+    srcs: [
+        "Chapter_22/*.c",
+    ],
+
+    shared_libs: [
+        "libOpenCL",
+    ],
+
+}
